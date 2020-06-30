@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginEnd="60dp"
-        android:layout_marginBottom="164dp"
+        android:layout_marginBottom="140dp"
         android:backgroundTint="#A0AEFB"
         android:text="quit game"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginEnd="60dp"
-        android:layout_marginBottom="232dp"
+        android:layout_marginBottom="208dp"
         android:backgroundTint="#A0AEFB"
         android:text="start game"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -43,9 +43,11 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="88dp"
         android:layout_marginEnd="28dp"
+        android:layout_marginBottom="76dp"
+        app:layout_constraintBottom_toTopOf="@+id/startBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/main_icon" />
+        app:srcCompat="@mipmap/maguni_main" />
 </androidx.constraintlayout.widget.ConstraintLayout>
